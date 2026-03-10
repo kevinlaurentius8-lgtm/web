@@ -1,90 +1,40 @@
 
-
-
-home.judulhome{
-        margin: 0px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-image:url("Gambarwine1.png");
-} 
-   
- 
- nav a{
-         text-decoration: none;
-         color: purple;
-         font-size: large;
-         padding: 5px 15px;
-         font-family:'Comic Sans MS';
-         &:hover{
-            color:lightblue;
-            transition: 1s;
-           font-size:x-large;
-         }
-        }
 header{
-    text-align: center ;
-    box-shadow: 0px 0px 5px;
-    background-color: orange;
+    text-align: center;
+    background-color: rgb(0, 238, 255);
     position: fixed;
-     top: 0; 
-     opacity: 1;
-     width: 100%;
-  }
- nav{
-     padding: 10px;
+    width: 100%;
 }
-                                                                                        
-section.home{
-    background-image:url("Gambarwine1.png)
-                                                                                                                       
+nav{
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(22, 240, 69);
+    background-color: purple;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: purple;
+}
+
+.home{
     height: 800px;
-                                                                                                                        
+    background-color: lightblue;
+    padding-top: 100PX;
+    background-image: url("");
+    & H1{
+        color: red;
+    }
 }
-                                                                                                                        
-.containerhome{
-                                                                                                                            
-    width: 55%;
-                                                                                                                                
-    margin-left: 45px;
-                                                                                                                                   
-    margin-top: 149px;
-                                                                                                                                        
-    background-color: goldenrod;
-                                                                                                                                           
-    border-radius: 20px;
-                                                                                                                                                box-shadow: 0px 0px 5px;
-                                                                                                                                                    padding: 40px;
-                                                                                                                                                        box-sizing: border-box;
-                                                                                                                                                        }
-                                                                                                                                                        .judulhome{
-                                                                                                                                                            font-size: xx-large;
-                                                                                                                                                                font-family: "Gloria Hallelujah";
-                                                                                                                                                                    opacity: 1;
-                                                                                                                                                                    }
-                                                                                                                                                                    p{
-                                                                                                                                                                        font-size: larger;
-                                                                                                                                                                            font-family: "Comic Sans MS";
-                                                                                                                                                                                opacity: 1;
-                                                                                                                                                                                }
-                                                                                                                                                                                .containerabout img{
-                                                                                                                                                                                    width: 30%;
-                                                                                                                                                                                        height: 30%;
-                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                                border-radius: 20px;
-                                                                                                                                                                                                }
-                                                                                                                                                                                                .containerabout{
-                                                                                                                                                                                                    padding: 40px;
-                                                                                                                                                                                                        border-radius: 20px;
-                                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                                                max-width: 700px;
-                                                                                                                                                                                                                    margin-left: 45px;
-                                                                                                                                                                                                                        margin-right: auto;
-                                                                                                                                                                                                                            background: linear-gradient(to right, darksalmon, coral, chocolate);
-                                                                                                                                                                                                                                box-shadow: 0px 0px 5px;
-                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                h3{
-                                                                                                                                                                                                                                    font-family: "Gloria Hallelujah";
-                                                                                                                                                                                                                                        font-size: x-large;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                        
+
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    & img{
+        height: 300px ;
+    }
+}
+
