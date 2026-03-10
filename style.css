@@ -1,12 +1,9 @@
-header img{
-    height: 100px;
-    width: 100px;
-    
-    
-}
+
 header{
     text-align: center;
-    background-color: gold;
+    background-color: rgb(0, 238, 255);
+    position: fixed;
+    width: 100%;
 }
 nav{
     margin-top: 10px;
@@ -21,3 +18,23 @@ nav a{
 nav a:hover{
     color: purple;
 }
+
+.home{
+    height: 800px;
+    background-color: lightblue;
+    padding-top: 100PX;
+    background-image: url("");
+    & H1{
+        color: red;
+    }
+}
+
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    & img{
+        height: 300px ;
+    }
+}
+
