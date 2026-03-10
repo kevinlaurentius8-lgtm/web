@@ -1,40 +1,238 @@
 
-header{
-    text-align: center;
-    background-color: rgb(0, 238, 255);
-    position: fixed;
-    width: 100%;
+body {
+    font-family: 'Poppins', sans-serif;
+     background-color: #f4f4f4;
+     color: #333;
+     scroll-behavior: smooth;
+  }
+
+               
+  header {
+                    
+    background-color: #2d002d; /* Warna ungu gelap dari logo */
+    padding: 15px 0;
+     position: fixed;
+                                
+     width: 100%;
+                                   
+     top: 0;
+                                       
+     z-index: 1000;
+                                        
 }
-nav{
-    margin-top: 10px;
+
+                                        
+.banner {
+                    
+    display: flex;
+                                                
+    justify-content: space-around;
+                                                   
+    align-items: center;
+                                                    
 }
-nav a{
+
+                                                    
+.logo-nav {
+                                                        
+    height: 50px;
+                                                            
+    border-radius: 50%;
+                                                        
+}
+
+                                                            
+nav a {
+                                                                
+    color: #f4d03f; /* Emas */
+                                                                   
     text-decoration: none;
-    color: rgb(22, 240, 69);
-    background-color: purple;
-    padding: 5px 15px;
-    font-size: 16px;
-}
-nav a:hover{
-    color: purple;
-}
-
-.home{
-    height: 800px;
-    background-color: lightblue;
-    padding-top: 100PX;
-    background-image: url("");
-    & H1{
-        color: red;
-    }
+                                                                        
+    margin: 0 15px;
+                                                                            
+    font-weight: 600;
+                                                                               
+    transition: 0.3s;
+                                                                                
 }
 
-.containerAbout{
-    width: 50%;
-    margin: auto;
-    padding: 50px 20px;
-    & img{
-        height: 300px ;
-    }
+                                                                                
+nav a:hover {
+                                                                                    
+    color: white;
+                                                                                    
+}
+                                                                                    
+.hero {
+                                                                                        
+    height: 100vh;
+                                                                                           
+    background: url("Gambarwine1.png") no-repeat center center/cover;
+                                                                                                
+    display: flex;
+                                                                                                    
+    align-items: center;
+                                                                                                       
+    justify-content: center;
+                                                                                                      
 }
 
+                                                                                                        
+.hero-overlay {
+                                                                                                          
+    background: rgba(0, 0, 0, 0.6);
+                                                                                                                
+    padding: 40px;
+                                                                                                                   
+    border-radius: 15px;
+                                                                                                                        
+    text-align: center;
+                                                                                                                            
+    color: white;
+                                                                                                                            
+}
+
+                                                                                                                           
+.judulhome {
+                                                                                                                               
+    font-family: 'Playfair Display', serif;
+                                                                                                                                   
+    font-size: 3.5rem;
+                                                                                                                                        
+    color: #f4d03f;
+ }
+
+                                                                                                                                        
+                                                                                                                                        
+ .about {
+                                                                                                                                            
+    padding: 80px 10%;
+                                                                                                                                               
+    background: white;
+                                                                                                                                                
+}
+
+                                                                                                                                                
+.about-flex {
+                                                                                                                                                   
+    display: flex;
+                                                                                                                                                        
+    align-items: center;
+                                                                                                                                                            
+    gap: 40px;
+                                                                                                                                                           
+}
+
+                                                                                                                                                            
+.about-img-wrapper img {
+                                                                                                                                                              
+    width: 400px;
+                                                                                                                                                                  
+    border-radius: 15px;
+                                                                                                                                                                       
+    box-shadow: 10px 10px 0px #2d002d;
+                                                                                                                                                                      
+}
+
+                                                                                                                                                                    
+                                                                                                                                                                        
+.profile {
+                                                                                                                                                                            
+    padding: 80px 0;
+                                                                                                                                                                             
+    background-color: #fdf2ff;
+                                                                                                                                                                                    
+    text-align: center;
+                                                                                                                                                                                    
+}
+
+                                                                                                                                                                                    
+.cardprofile {
+                                                                                                                                                                                       
+    width: 350px;
+                                                                                                                                                                                            
+    background: white;
+                                                                                                                                                                                               
+    margin: 0 auto;
+                                                                                                                                                                                                    
+    border-radius: 20px;
+                                                                                                                                                                                                        
+    overflow: hidden;
+                                                                                                                                                                                                            
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                                                                                                                                                                                                            
+}
+
+                                                                                                                                                                                                            
+.profile-header {
+                                                                                                                                                                                                                
+    height: 100px;
+                                                                                                                                                                                                                  
+    background: #2d002d;
+                                                                                                                                                                                                                    
+}
+
+                                                                                                                                                                                                                    
+.profile-pic {
+                                                                                                                                                                                                                        
+    width: 120px;
+                                                                                                                                                                                                                            
+    height: 120px;
+                                                                                                                                                                                                                                
+    border-radius: 50%;
+                                                                                                                                                                                                                                    
+    border: 5px solid white;
+                                                                                                                                                                                                                                      
+    margin-top: -60px;
+                                                                                                                                                                                                                                            
+    background: white;
+                                                                                                                                                                                                                                           
+}
+
+                                                                                                                                                                                                                                           
+.profile-content h3 {
+                                                                                                                                                                                                                                               
+    margin-top: 15px;
+                                                                                                                                                                                                                                                  
+    font-size: 24px;
+                                                                                                                                                                                                                                                       
+    color: #2d002d;
+                                                                                                                                                                                                                                                        
+}
+
+                                                                                                                                                                                                                                                        
+.role {
+                                                                                                                                                                                                                                                           
+    color: #b388ff;
+                                                                                                                                                                                                                                                               
+    font-weight: bold;
+                                                                                                                                                                                                                                                                    
+    font-size: 14px;
+                                                                                                                                                                                                                                                                      
+    margin-bottom: 15px;
+                                                                                                                                                                                                                                                                      
+}
+
+                                                                                                                                                                                                                                                                       
+.bio {
+                                                                                                                                                                                                                                                                            
+    padding: 0 25px 20px;
+                                                                                                                                                                                                                                                                               
+    font-size: 14px;
+                                                                                                                                                                                                                                                                                    
+    color: #666;
+                                                                                                                                                                                                                                                                                   
+}
+
+                                                                                                                                                                                                                                                                                    
+footer {
+                                                                                                                                                                                                                                                                                        
+    background: #2d002d;
+                                                                                                                                                                                                                                                                                            
+    color: white;
+                                                                                                                                                                                                                                                                                               
+    text-align: center;
+                                                                                                                                                                                                                                                                                                   
+    padding: 20px;
+                                                                                                                                                                                                                                                                                                    
+}
