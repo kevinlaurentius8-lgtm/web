@@ -126,11 +126,12 @@ nav a:hover {
                                                                                                                                                             
 .about-img-wrapper img {
                                                                                                                                                               
-    width: 400px;
+    width: 200px auto;
                                                                                                                                                                   
     border-radius: 15px;
                                                                                                                                                                        
     box-shadow: 10px 10px 0px 2d002d;
+    background-repeat: no-repeat ;
                                                                                                                                                                       
 }
 
@@ -236,5 +237,6 @@ footer {
     padding: 20px;
                                                                                                                                                                                                                                                                                                     
 }
+
 
 
