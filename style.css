@@ -82,13 +82,14 @@ nav a:hover {
                                                                                                           
     background: rgba(0, 0, 0, 0.6);
                                                                                                                 
-    padding: 400px;
+    margin: 100px;
                                                                                                                    
     border-radius: 80px;
                                                                                                                         
     text-align: center;
                                                                                                                             
     color: white;
+    
                                                                                                                             
 }
 
@@ -237,6 +238,7 @@ footer {
     padding: 20px;
                                                                                                                                                                                                                                                                                                     
 }
+
 
 
 
