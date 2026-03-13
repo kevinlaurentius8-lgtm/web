@@ -127,8 +127,8 @@ nav a:hover {
                                                                                                                                                             
 .about-img-wrapper img {
                                                                                                                                                               
-    width: 600px ;
-    heigth: 750px ;
+    width: 200px ;
+    heigth: 400px ;
     border-radius: 15px;
                                                                                                                                                                        
     box-shadow: 10px 10px 0px 2d002d;
@@ -238,6 +238,7 @@ footer {
     padding: 20px;
                                                                                                                                                                                                                                                                                                     
 }
+
 
 
 
