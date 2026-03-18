@@ -110,7 +110,7 @@ nav a:hover {
                                                                                                                                             
     padding: 80px 10%;
                                                                                                                                                
-    background: white;
+    background: lightblue;
                                                                                                                                                 
 }
 
@@ -154,7 +154,7 @@ nav a:hover {
                                                                                                                                                                                        
     width: 350px;
                                                                                                                                                                                             
-    background: white;
+    background: blue;
                                                                                                                                                                                                
     margin: 0 auto;
                                                                                                                                                                                                     
@@ -184,11 +184,11 @@ nav a:hover {
                                                                                                                                                                                                                                 
     border-radius: 50%;
                                                                                                                                                                                                                                     
-    border: 5px solid white;
+    border: 5px solid lightyellow;
                                                                                                                                                                                                                                       
     margin-top: -60px;
                                                                                                                                                                                                                                             
-    background: white;
+    background: lightgreen;
                                                                                                                                                                                                                                            
 }
 
@@ -232,7 +232,7 @@ footer {
                                                                                                                                                                                                                                                                                         
     background: 2d002d;
                                                                                                                                                                                                                                                                                             
-    color: white;
+    color: green;
                                                                                                                                                                                                                                                                                                
     text-align: center;
                                                                                                                                                                                                                                                                                                    
