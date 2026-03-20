@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d002d; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.banner {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner img {
+    scale: 70%;
+}
+
+.logo-nav {
+    height: 70px;
+    border-radius: 10%;
+}
+
+nav a {
+    color: #f4d03f; 
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    padding: 6px 20px;
+    border-radius: 10px;
+    background: #f4d03f;
+    color: black;
+    font-size: 105%;
+}
+
+.hero {
+    height: 100vh;
+    background: url("src/Gambarwine1.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.judulhome {
+    font-family: 'Poppins';
+    margin: 0;
+    font-size: 3rem;
+    color: #f4d03f;
+}
+
+.deskripsihome {
+    padding: 0 200px;
+}
+
+.about {
+    padding: 30px 25px;
+    background: lightblue;
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    flex-wrap: nowrap;
+}
+
+.about-img-wrapper,
+.about-text {
+    width: 30%;
+}
+
+.about-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about-img-wrapper img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px #2d002d;
+    transition: .2s;
+}
+
+.about-img-wrapper img:hover {
+    scale: 105%;
+}
+
+.profile {
+    padding-bottom: 20px;
+    background-color: #fdf2ff;
+    text-align: center;
+}
+
+.cardprofile {
+    width: 350px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.profile-header {
+    height: 100px;
+    background: #2d002d;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid lightyellow;
+    margin-top: -60px;
+}
+
+.profile-content h3 {
+    margin: 5px;
+    font-size: 24px;
+    color: #2d002d;
+}
+
+.role {
+    color: #b388ff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.bio {
+    padding: 0 25px 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.social-links a {
+    padding: 9px 12px;
+    border-radius: 100%;
+    margin: 5px;
+    color: black;
+    background-color: #f4d03f;
+    transition: .5s;
+}
+
+.social-links a:hover {
+    background-color: #2d002d;
+    color: white;
+}
+
+footer {
+    background: #2d002d;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+}
